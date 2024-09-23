@@ -1,16 +1,54 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-boxii;
+    box-sizing: border-box;
 }
 
 body {
     width: 100%;
     font-family:  Arial, sans-serif;
 }
-header, nav, article, div, footer {
+header {
+    width: 100%;
     padding: 10px;
     background-color: yellow;
     border: solid gray;
     text-align: center;
+}
+
+nav {
+    width: 20%;
+    height: 200;
+    float: left;
+    padding: 10px;
+    background-color: yellow;
+    border: solid gray;
+    text-align: center;
+}
+article {
+    height: 200;
+    width: 60%;
+    float: left;
+    padding: 10px;
+    background-color: yellow;
+    border: solid gray;
+    text-align: center;
+}
+div{
+    height: 200;
+    width: 20%;
+    float: left;
+    padding: 10px;
+    background-color: yellow;
+    border: solid gray;
+    text-align: center;
+}
+
+footer {
+    width: 100%;
+    padding: 10px;
+    background-color: yellow;
+    border: solid gray;
+    text-align: center;
+    clear:both;
 }
