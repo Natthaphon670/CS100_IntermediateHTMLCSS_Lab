@@ -9,19 +9,21 @@ body {
     font-family:  Arial, sans-serif;
 }
 header {
+    color: aliceblue;
     width: 100%;
     padding: 10px;
-    background-color: yellow;
+    background-color: rgb(77, 77, 77);
     border: solid gray;
     text-align: center;
 }
 
 nav {
+    color: aliceblue;
     width: 20%;
     height: 200;
     float: left;
     padding: 10px;
-    background-color: yellow;
+    background-color: rgb(31, 50, 219);
     border: solid gray;
     text-align: center;
 }
@@ -30,24 +32,26 @@ article {
     width: 60%;
     float: left;
     padding: 10px;
-    background-color: yellow;
+    background-color: rgb(228, 244, 255);
     border: solid gray;
     text-align: center;
 }
 div{
+    color: aliceblue;
     height: 200;
     width: 20%;
     float: left;
     padding: 10px;
-    background-color: yellow;
+    background-color: rgb(231, 31, 31);
     border: solid gray;
     text-align: center;
 }
 
 footer {
+    color: aliceblue;
     width: 100%;
     padding: 10px;
-    background-color: yellow;
+    background-color: rgb(77, 77, 77);
     border: solid gray;
     text-align: center;
     clear:both;
